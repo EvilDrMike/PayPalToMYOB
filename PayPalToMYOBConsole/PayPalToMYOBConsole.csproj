@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="7.1.1" />
+    <PackageReference Include="FluentCommandLineParser" Version="1.5.0.20-commands" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PayPalToMYOB\PayPalToMYOB.csproj" />
+  </ItemGroup>
+
+</Project>

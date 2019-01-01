@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PayPalToMYOBConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"C:\\BenefitRoad\\Personal\\PayPalToMYOB\\Paypalexport.csv\" -o \"C:\\BenefitRoad\\Personal\\PayPalToMYOB\\PayPalMyobImport.csv\" -c  12021 -d 12000"
+    }
+  }
+}
